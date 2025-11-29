@@ -162,6 +162,13 @@ cd smart-contracts
 npx hardhat run scripts/deploy_v2.ts --network celoSepolia
 ```
 
+### Deploy to Vercel
+
+1. Import the repository to Vercel.
+2. **Important**: In "Project Settings" > "General", set the **Root Directory** to `frontend`.
+3. The build command should be `next build` and output directory `.next`.
+4. Deploy!
+
 ### Run Tests
 
 ```bash
