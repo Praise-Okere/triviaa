@@ -1,0 +1,11 @@
+node_modules
+.next
+.env
+.DS_Store
+dist
+artifacts
+cache
+typechain-types
+coverage
+coverage.json
+hardhat.config.js.map
