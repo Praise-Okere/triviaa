@@ -390,6 +390,6 @@ Having issues?
 
 ---
 
-**Built with ❤️ for the Celo community**
+**Built with ❤️ for the Blockchain RSU community**
 
 *Help others learn about Celo and earn rewards!* 🚀
