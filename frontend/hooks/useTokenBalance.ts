@@ -1,7 +1,7 @@
 import { useReadContract } from 'wagmi';
 import { formatUnits } from 'viem';
 
-// TODO: Replace with actual deployed TriviaToken address
+
 const TRIVIA_TOKEN_ADDRESS = "0xB6F2A6FDf405Ea3414fCbD13f0e9e361c33d17a8";
 
 const ERC20_ABI = [

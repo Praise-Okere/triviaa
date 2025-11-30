@@ -2,7 +2,6 @@ import { useReadContract, useWriteContract, useWaitForTransactionReceipt } from 
 import { parseEther } from 'viem';
 import TriviaGameABI from '@/abis/TriviaGame.json';
 
-// Deployed TriviaGame contract address on Celo Sepolia (V2 with Batch Rewards)
 const TRIVIA_GAME_ADDRESS = "0x0B3Dc26723008E7d9B4468Aaae95e66605f6B028";
 
 export function useTriviaGame() {

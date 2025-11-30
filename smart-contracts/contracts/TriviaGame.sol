@@ -17,11 +17,6 @@ contract TriviaGame is Ownable {
         token = TriviaToken(_tokenAddress);
     }
 
-    // In a real production app, we would verify a signature from the backend
-    // to ensure the answer was actually correct.
-    // For this hackathon/demo, we'll trust the frontend or use a simple hash check.
-    // Let's implement a simple "submitAnswer" that just mints for now to demonstrate the flow,
-    // assuming the frontend validates the correctness.
     function submitCorrectAnswer(uint256 questionId) external {
         require(!hasAnswered[msg.sender][questionId], "Already answered this question");
         

@@ -13,12 +13,12 @@ export function useEmbeddedWallet() {
         const storedPrivateKey = localStorage.getItem('embedded_wallet_key');
 
         if (storedPrivateKey) {
-            // Load existing wallet
+            
             const existingWallet = new ethers.Wallet(storedPrivateKey);
             setWallet(existingWallet);
             setAddress(existingWallet.address);
         } else {
-            // Create new wallet
+      
             const newWallet = ethers.Wallet.createRandom();
             localStorage.setItem('embedded_wallet_key', newWallet.privateKey);
             setWallet(newWallet);
